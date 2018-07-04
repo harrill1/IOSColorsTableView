@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BC320CAC20ED379900037679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC320CAB20ED379900037679 /* AppDelegate.swift */; };
-		BC320CAE20ED379900037679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC320CAD20ED379900037679 /* ViewController.swift */; };
 		BC320CB120ED379900037679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC320CAF20ED379900037679 /* Main.storyboard */; };
 		BC320CB320ED37A200037679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC320CB220ED37A200037679 /* Assets.xcassets */; };
 		BC320CB620ED37A200037679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC320CB420ED37A200037679 /* LaunchScreen.storyboard */; };
+		BC320CBE20ED3A0A00037679 /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC320CBD20ED3A0A00037679 /* ColorsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BC320CA820ED379900037679 /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC320CAB20ED379900037679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC320CAD20ED379900037679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BC320CB020ED379900037679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC320CB220ED37A200037679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC320CB520ED37A200037679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC320CB720ED37A200037679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC320CBD20ED3A0A00037679 /* ColorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		BC320CAA20ED379900037679 /* Colors */ = {
 			isa = PBXGroup;
 			children = (
+				BC320CBD20ED3A0A00037679 /* ColorsViewController.swift */,
 				BC320CAB20ED379900037679 /* AppDelegate.swift */,
-				BC320CAD20ED379900037679 /* ViewController.swift */,
 				BC320CAF20ED379900037679 /* Main.storyboard */,
 				BC320CB220ED37A200037679 /* Assets.xcassets */,
 				BC320CB420ED37A200037679 /* LaunchScreen.storyboard */,
@@ -135,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC320CAE20ED379900037679 /* ViewController.swift in Sources */,
+				BC320CBE20ED3A0A00037679 /* ColorsViewController.swift in Sources */,
 				BC320CAC20ED379900037679 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33942WYDW3;
 				INFOPLIST_FILE = Colors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33942WYDW3;
 				INFOPLIST_FILE = Colors/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
